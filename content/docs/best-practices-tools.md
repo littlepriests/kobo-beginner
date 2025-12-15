@@ -3,4 +3,8 @@ title: Best practices + tooling (Optional)
 weight: 3
 ---
 
-Under construction
+## GitHub
+
+## VS Code, TextEdit, and Notepad
+
+## Back-up folder

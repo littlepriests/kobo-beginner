@@ -1,0 +1,63 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unofficial docs – Plugins and patches</title>
+    <link>http://localhost:1313/docs/customize-koreader/plugins/</link>
+    <description>Recent content in Plugins and patches on unofficial docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/docs/customize-koreader/plugins/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Plugin overview</title>
+      <link>http://localhost:1313/docs/customize-koreader/plugins/plugin-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/customize-koreader/plugins/plugin-overview/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ProjectTitle</title>
+      <link>http://localhost:1313/docs/customize-koreader/plugins/project-title/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/customize-koreader/plugins/project-title/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Okay. You installed Koreader and it looks nothing like the pictures you&amp;rsquo;ve seen online. Now what? lol well I guess it depends on what your goals are. What I can do is show you how I&amp;rsquo;ve set up Koreader.&lt;/p&gt;
+&lt;h2&gt;Books, shelves, and cover images&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;books-shelves-and-cover-images&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#books-shelves-and-cover-images&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h2&gt;Plugins and patches overview&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;plugins-and-patches-overview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#plugins-and-patches-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h2&gt;Custom icons&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;custom-icons&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#custom-icons&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h2&gt;Edit NickelMenu&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;edit-nickelmenu&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#edit-nickelmenu&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h2&gt;Popular tools&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;popular-tools&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#popular-tools&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Bluetooth in Koreader</title>
+      <link>http://localhost:1313/docs/customize-koreader/plugins/bluetooth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/customize-koreader/plugins/bluetooth/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

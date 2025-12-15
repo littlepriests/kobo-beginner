@@ -1,0 +1,84 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unofficial docs – Customize Koreader</title>
+    <link>http://localhost:1313/docs/customize-koreader/</link>
+    <description>Recent content in Customize Koreader on unofficial docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/docs/customize-koreader/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Custom icons</title>
+      <link>http://localhost:1313/docs/customize-koreader/custom-icons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/customize-koreader/custom-icons/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Edit NickelMenu</title>
+      <link>http://localhost:1313/docs/customize-koreader/edit-nm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/customize-koreader/edit-nm/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Add fonts</title>
+      <link>http://localhost:1313/docs/customize-koreader/add-fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/customize-koreader/add-fonts/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Other tools</title>
+      <link>http://localhost:1313/docs/customize-koreader/other-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/customize-koreader/other-tools/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Plugins and patches</title>
+      <link>http://localhost:1313/docs/customize-koreader/plugins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/customize-koreader/plugins/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Define them + lua + intro to how it works&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

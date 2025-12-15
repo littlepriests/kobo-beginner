@@ -9,17 +9,19 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 <title>A beginner&#39;s introduction – unofficial docs</title>
-  <meta name="description" content="This doc is for nontechnical users wanting to personalize their Kobo ereader. If you’re someone who already had a Github account before your ereader, then go ahead and start here. If you’re still wondering what the hell GitHub is and what people mean when they refer to the root, then you’re in a good spot.
-Create a new folder in .kobo We’re going to introduce a bunch of concepts by first working on a task: creating a screensaver folder in your .kobo directory. This task is intended to give you firmer footing on how file structures work before we install Koreader, which is famously a pain in the ass." /><link rel="canonical" href="http://localhost:1313/docs/very-beginner/" itemprop="url" />
+  <meta name="description" content="This doc is for readers who don’t have too much exposure hacking their devices, but want to personalize their ereader.
+If you’re someone who already had a Github account before your ereader, then go ahead and start here. If you’re still wondering what the hell GitHub is and what people mean when they refer to a root directory, then you’re in a good spot.
+Create a new folder in .kobo We’re going to introduce a bunch of concepts by first working on a task: creating a screensaver folder in your .kobo directory. This task should give you a firmer grasp on the kinds of actions we’ll take everywhere else in these docs, like adding resources to folders and creating new folders inside your Kobo. It should prime you to install Koreader, too, which is famously a pain in the ass." /><link rel="canonical" href="http://localhost:1313/docs/very-beginner/" itemprop="url" />
 
 <meta property="og:title" content="A beginner&#39;s introduction">
 <meta
   property="og:description"
   content="
     
-      This doc is for nontechnical users wanting to personalize their Kobo ereader. If you&rsquo;re someone who already had a Github account before your ereader, then go ahead and start here. If you&rsquo;re still wondering what the hell GitHub is and what people mean when they refer to the root, then you&rsquo;re in a good spot.
+      This doc is for readers who don&rsquo;t have too much exposure hacking their devices, but want to personalize their ereader.
+If you&rsquo;re someone who already had a Github account before your ereader, then go ahead and start here. If you&rsquo;re still wondering what the hell GitHub is and what people mean when they refer to a root directory, then you&rsquo;re in a good spot.
 Create a new folder in .kobo
-    We&rsquo;re going to introduce a bunch of concepts by first working on a task: creating a screensaver folder in your .kobo directory. This task is intended to give you firmer footing on how file structures work before we install Koreader, which is famously a pain in the ass.
+    We&rsquo;re going to introduce a bunch of concepts by first working on a task: creating a screensaver folder in your .kobo directory. This task should give you a firmer grasp on the kinds of actions we&rsquo;ll take everywhere else in these docs, like adding resources to folders and creating new folders inside your Kobo. It should prime you to install Koreader, too, which is famously a pain in the ass.
     
   ">
 <meta
@@ -33,13 +35,15 @@ Create a new folder in .kobo
 
 
   <meta itemprop="name" content="A beginner&#39;s introduction">
-  <meta itemprop="description" content="This doc is for nontechnical users wanting to personalize their Kobo ereader. If you’re someone who already had a Github account before your ereader, then go ahead and start here. If you’re still wondering what the hell GitHub is and what people mean when they refer to the root, then you’re in a good spot.
-Create a new folder in .kobo We’re going to introduce a bunch of concepts by first working on a task: creating a screensaver folder in your .kobo directory. This task is intended to give you firmer footing on how file structures work before we install Koreader, which is famously a pain in the ass.">
-  <meta itemprop="wordCount" content="766">
+  <meta itemprop="description" content="This doc is for readers who don’t have too much exposure hacking their devices, but want to personalize their ereader.
+If you’re someone who already had a Github account before your ereader, then go ahead and start here. If you’re still wondering what the hell GitHub is and what people mean when they refer to a root directory, then you’re in a good spot.
+Create a new folder in .kobo We’re going to introduce a bunch of concepts by first working on a task: creating a screensaver folder in your .kobo directory. This task should give you a firmer grasp on the kinds of actions we’ll take everywhere else in these docs, like adding resources to folders and creating new folders inside your Kobo. It should prime you to install Koreader, too, which is famously a pain in the ass.">
+  <meta itemprop="wordCount" content="797">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="A beginner&#39;s introduction">
-  <meta name="twitter:description" content="This doc is for nontechnical users wanting to personalize their Kobo ereader. If you’re someone who already had a Github account before your ereader, then go ahead and start here. If you’re still wondering what the hell GitHub is and what people mean when they refer to the root, then you’re in a good spot.
-Create a new folder in .kobo We’re going to introduce a bunch of concepts by first working on a task: creating a screensaver folder in your .kobo directory. This task is intended to give you firmer footing on how file structures work before we install Koreader, which is famously a pain in the ass.">
+  <meta name="twitter:description" content="This doc is for readers who don’t have too much exposure hacking their devices, but want to personalize their ereader.
+If you’re someone who already had a Github account before your ereader, then go ahead and start here. If you’re still wondering what the hell GitHub is and what people mean when they refer to a root directory, then you’re in a good spot.
+Create a new folder in .kobo We’re going to introduce a bunch of concepts by first working on a task: creating a screensaver folder in your .kobo directory. This task should give you a firmer grasp on the kinds of actions we’ll take everywhere else in these docs, like adding resources to folders and creating new folders inside your Kobo. It should prime you to install Koreader, too, which is famously a pain in the ass.">
 <link href="/css/compiled/main.css" rel="stylesheet" />
     <link href="/css/variables.css" rel="stylesheet" />
     <link href="/css/custom.css" rel="stylesheet" />
@@ -352,20 +356,21 @@ Create a new folder in .kobo We’re going to introduce a bunch of concepts by f
 
         <div class="content">
           <h1>A beginner&#39;s introduction</h1>
-          <p>This doc is for nontechnical users wanting to personalize their Kobo ereader. If you&rsquo;re someone who already had a Github account before your ereader, then go ahead and <a href="/docs/install-koreader/">start here</a>. If you&rsquo;re still wondering what the hell GitHub is and what people mean when they refer to the root, then you&rsquo;re in a good spot.</p>
+          <p>This doc is for readers who don&rsquo;t have too much exposure hacking their devices, but want to personalize their ereader.</p>
+<p>If you&rsquo;re someone who already had a Github account before your ereader, then go ahead and <a href="/docs/install-koreader/">start here</a>. If you&rsquo;re still wondering what the hell GitHub is and what people mean when they refer to a root directory, then you&rsquo;re in a good spot.</p>
 <h2>Create a new folder in <code>.kobo</code><span class="hx:absolute hx:-mt-20" id="create-a-new-folder-in-kobo"></span>
-    <a href="#create-a-new-folder-in-kobo" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>We&rsquo;re going to introduce a bunch of concepts by first working on a task: creating a screensaver folder in your <code>.kobo</code> directory. This task is intended to give you firmer footing on how file structures work before we install Koreader, which is famously a pain in the ass.</p>
+    <a href="#create-a-new-folder-in-kobo" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>We&rsquo;re going to introduce a bunch of concepts by first working on a task: creating a screensaver folder in your <code>.kobo</code> directory. This task should give you a firmer grasp on the kinds of actions we&rsquo;ll take everywhere else in these docs, like adding resources to folders and creating new folders inside your Kobo. It should prime you to install Koreader, too, which is famously a pain in the ass.</p>
 <h3>Step 1: Plug in your Kobo via USB to your PC<span class="hx:absolute hx:-mt-20" id="step-1-plug-in-your-kobo-via-usb-to-your-pc"></span>
-    <a href="#step-1-plug-in-your-kobo-via-usb-to-your-pc" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>First thing&rsquo;s first: at the end of the day all devices are just a bunch of folders and files that you can view in your File Explorer, and your Kobo is no different. So, let&rsquo;s plug it in:</p>
+    <a href="#step-1-plug-in-your-kobo-via-usb-to-your-pc" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>First thing&rsquo;s first: at the end of the day every piece of technology is just a bunch of folders and files that you can view and edit from your File Explorer. Your Kobo is no different. So let&rsquo;s plug her in:</p>
 <p>
     <img src="../images/beginners-directory.png" alt="Image that shows directory for plugged-in Kobo"  loading="lazy" /></p>
-<p>The screenshot shows a plugged in Kobo (<code>KOBOeReader(D:)</code>) and all the folders that make up my Kobo&rsquo;s <strong>root directory</strong>. The difference between a root directory and regular directory is that <strong>root</strong> indicates the top-most level in a file structure. Sometimes people will call something root when it&rsquo;s not, so tread carefully and always clarify what folder they mean.</p>
-<p>As you can see, I have a bunch of directories (or folders, but we&rsquo;ll use the term directories throughout these docs) that you may or may not have. <code>.adds</code> is where Nickelmenu and Koreader will eventually live; <code>Books</code> is where I keep all my epubs (which live in subdirectories by genre); <code>.fonts</code> is where I&rsquo;ve added my own fonts; and so on.</p>
+<p>The screenshot shows a plugged in Kobo (<code>KOBOeReader(D:)</code>) and all the folders that make up my Kobo&rsquo;s <strong>root directory</strong>. The difference between a root directory and regular directory is that <strong>root</strong> indicates the top-most level in a file structure. Sometimes people will call something root when it&rsquo;s not, so clarify what they mean if you&rsquo;re uncertain.</p>
+<p>My device already has a bunch of directories (or folders, but we&rsquo;ll use the term directories throughout these docs). You you may or may not recognize some of these. <code>.adds</code> is where NickelMenu and Koreader will eventually live; <code>Books</code> is where I keep all my epubs, which live in subdirectories by genre; <code>.fonts</code> is where I&rsquo;ve added my own fonts; and so on.</p>
 <p>But let&rsquo;s ignore all that for now and move on to the second step.</p>
 <h3>Step 2: Create a folder in <code>.kobo</code><span class="hx:absolute hx:-mt-20" id="step-2-create-a-folder-in-kobo"></span>
     <a href="#step-2-create-a-folder-in-kobo" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ol>
 <li>
-<p>Select <code>.kobo</code> to open the main Kobo directory. A bunch of stuff appears; take a look, then ignore all of it for now:</p>
+<p>Select <code>.kobo</code> to open the main Kobo directory. A bunch of stuff appears. Take a look, then ignore all of it for now:</p>
 <p>
     <img src=".././images/kobo-directory.png" alt="Image that shows an uncollapsed .kobo directory"  loading="lazy" /></p>
 </li>
@@ -373,15 +378,16 @@ Create a new folder in .kobo We’re going to introduce a bunch of concepts by f
 <p>Create a new folder called <code>screensaver</code>. This is where you&rsquo;ll add new images so when your Kobo is asleep or powered off, you&rsquo;ll have something custom on display. Your directory should look like this:</p>
 <p>
     <img src=".././images/screensaver-dotkobo.png" alt="Image that shows an uncollapsed .kobo directory, but with a new folder called screensaver"  loading="lazy" /></p>
-<p>Re: <code>.kobo</code>: This is one of two directories you&rsquo;ll be using quite a bit.</p>
+<p>Re: <code>.kobo</code>: This is one of two directories you might use often.</p>
 <ul>
-<li>Generally speaking, making changes to the <code>.kobo</code> directory introduces new behaviors and ~outcomes for your default Kobo software.</li>
-<li>You may occasionally need to add something to <code>.kobo</code> even if you&rsquo;re modifying something in Koreader, so be cognizant of what folder you&rsquo;re adding shit to in future procedures.</li>
+<li>Generally speaking, making changes to the <code>.kobo</code> directory introduces new behaviors and outcomes for your default Kobo software.</li>
+<li>For example, images in the <code>.kobo</code> screensaver folder will appear when your device goes asleep from the default launcher.</li>
+<li>You may need to add something to <code>.kobo</code> even if you&rsquo;re modifying something in Koreader. Be cognizant of what folder you&rsquo;re adding shit to in future procedures, and clarify if you&rsquo;re uncertain.</li>
 </ul>
 </li>
 </ol>
 <h3>Step 3. Add an image<span class="hx:absolute hx:-mt-20" id="step-3-add-an-image"></span>
-    <a href="#step-3-add-an-image" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Find an image and add it to screensavers. A copy from the downloaded image on your PC and a paste into the new folder will do:</p>
+    <a href="#step-3-add-an-image" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Find an image and add it to screensavers. Copy any old downloaded image from your PC and paste it into the new folder. Should look something like this:</p>
 <p>
     <img src=".././images/screensaver-folder.png" alt="Image of screensaver folder with some images"  loading="lazy" /></p>
 <p>I use a Kobo Libra Color, and the resolution size that gets the full screen effect is 926x1200. Don&rsquo;t know what aspect ratio that is, so can&rsquo;t help anyone there. As far as I can tell image titles and file extensions (that is the <code>.png</code> and <code>.jpg</code>) aren&rsquo;t super important, though IIRC my Kobo didn&rsquo;t load any  <code>.webp</code> images.</p>
@@ -393,22 +399,17 @@ Create a new folder in .kobo We’re going to introduce a bunch of concepts by f
 <h3>Let&rsquo;s review really quick<span class="hx:absolute hx:-mt-20" id="lets-review-really-quick"></span>
     <a href="#lets-review-really-quick" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Earlier I said that tinkering with devices is just playing with files and folders. Everything you do here on out will follow this broad procedure:</p>
 <ol>
-<li>Plug in your Kobo</li>
+<li>Plug in your Kobo.</li>
 <li>Either create a new folder and add some files to it, or add a folder to an existing folder, or even just edit some text in an existing file&hellip; or add a new file. You get the picture, lol.</li>
-<li>Eject your Kobo safely</li>
-<li>Wait for an update, then see the results</li>
+<li>Eject your Kobo safely.</li>
+<li>Wait for an update, then see the results.</li>
 </ol>
 <p>There is a diabolical fifth step that involves troubleshooting and repeating all of these steps until you get the results you want. You will get a crash page sometimes&hellip; But the good news is Kobo is super forgiving with the DIY hacker spirit, so worry not. :)</p>
 <h2>What&rsquo;s next?<span class="hx:absolute hx:-mt-20" id="whats-next"></span>
     <a href="#whats-next" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>You have two options for the next part of your journey. You can either:</p>
 <ul>
-<li><a href="/docs/the-tools">Get an introduction to tools</a> like VS Code, GitHub, Koreader.
-<ul>
-<li>These aren&rsquo;t prerequisites and many might see it as overkill, though I do not.</li>
-<li>In other words this doc is just <em>my opinion</em> and the suggestions that come from that, and won&rsquo;t be recommended in any forum.</li>
-</ul>
-</li>
-<li>Or jump right into <a href="/docs/install-koreader/">getting started with installing Koreader</a>.</li>
+<li><a href="/docs/the-tools">Get an introduction to tools</a> like VS Code, GitHub, and some suggested best practices. Some might see this doc as overkill, but I don&rsquo;t.</li>
+<li>Jump right into <a href="/docs/install-koreader/">getting started with installing Koreader</a>.</li>
 </ul>
 
         </div>

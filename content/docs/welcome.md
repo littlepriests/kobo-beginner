@@ -6,13 +6,15 @@ breadcrumbs: false
 
 ![Ami with a book](./images/amiBook.jpg)
 
-Something I've noticed perusing Mobile Reads or Reddit is that nontechnical users are unfamiliar with how file management and directories work, as well as the best way to tinker with your device. I want to help in any way I can, so the goal of this site is to simplify some procedures so you can personalize your ereader. 
+The intent of this site is to simplify procedures that let you personalize your ereader. I've written these docs with a nontechnical reader in mind, someone who may not have as much exposure to file management and certain verbiage you may hear from developers. That said, I hope that readers at all experience levels will learn something.
 
-I think in an era where tech companies want us overly dependent on their (usually $$$, subscription-based) solutions, learning how to DIY your device into something that oozes your personality is really empowering... and not in the stupid tech world way. I think tech companies make money off us when we don't understand how our devices work and now more than ever I believe we need to be more proactive with tinkering with our devices. ♡
+It's important to me that hacking your device is as accessible as possible. In an era where tech companies want us overly dependent on their costly, subscription-based solutions, learning how to DIY your device into something that oozes your personality is really empowering. Not only that, I believe the more educated we are about how tech devices work, the less susceptible to slop we become. It also lets us say no when tech companies try to force us into throwing our money at them.
 
-## My Kobo set up
+I believe that now more than ever we need to educate ourselves (and others!) about our technologies. And even moreso than that, my hope is that learning to tinker with your ereader opens up an entirely new world of really claiming your devices as your own. ♡
 
-I've been reading more than I have in years thanks to my ereader. I've also caught the DIY, hacking bug. Here's what my current set up looks like with Koreader (and some other plugins):
+## My Kobo set-up
+
+I'll refer to some things I've done with my Koreader set-up throughout these docs. Here's the outcome of my current set up:
 
 ![](./images/my-kobo.png )
 

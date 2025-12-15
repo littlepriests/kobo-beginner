@@ -27,15 +27,15 @@ Anyway, be kind to yourself and safely eject, check, and replug it in.
     ![](./images/conf-edit.png)
 3. Save, then safely eject your ereader.
 
-{{< callout type="info" >}}
-Note: I'm not sure what this step does but I've reached out to Techy-Notes to confirm why we do this. What I can confirm right now is that my Kobo has worked just fine with this edit. {{< /callout >}}
+{{< callout type="note" >}}
+I'm not sure what this step does but I've reached out to Techy-Notes to confirm why we do this. What I can confirm right now is that my Kobo has worked just fine with this edit. {{< /callout >}}
 
 ### Phase 2: Install NickelMenu
 
 0. Plug in your ereader.
 1. Go to the [release page of the NickelMenu repository](https://github.com/pgaskin/NickelMenu/releases) and download the latest release of `KoboRoot.tgz`. 
     * The file you need is in the **Assets** section. 
-    * I strongly recommend that you keep a copy of the most recent release handy. Nickelmenu sometimes disappears as we tinker with our ereader, and the best way to get it back is to follow the Nickelmenu install step.
+    * I strongly recommend that you keep a copy of the most recent release handy. NickelMenu sometimes disappears as we tinker with our ereader, and the best way to get it back is to follow the NickelMenu install step.
 2. Find where `KoboRoot.tgz` downloaded on your PC, then copy `KoboRoot.tgz` and paste it into the `.kobo` directory.
 
     ![An image that shows where KoboRoot appears inside the .kobo directory](./images/nm-koboroot.png)

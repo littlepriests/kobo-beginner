@@ -67,7 +67,7 @@
 &lt;p&gt;
     &lt;img src=&#34;../images/beginners-directory.png&#34; alt=&#34;Image that shows directory for plugged-in Kobo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The screenshot shows a plugged in Kobo (&lt;code&gt;KOBOeReader(D:)&lt;/code&gt;) and all the folders that make up my Kobo&amp;rsquo;s &lt;strong&gt;root directory&lt;/strong&gt;. The difference between a root directory and regular directory is that &lt;strong&gt;root&lt;/strong&gt; indicates the top-most level in a file structure. Sometimes people will call something root when it&amp;rsquo;s not, so tread carefully and always clarify what folder they mean.&lt;/p&gt;
-&lt;p&gt;As you can see, I have a bunch of directories (or folders, but we&amp;rsquo;ll use the term directories throughout these docs) that you may or may not have. &lt;code&gt;.adds&lt;/code&gt; is where Nickelmenu and Koreader will eventually live; &lt;code&gt;Books&lt;/code&gt; is where I keep all my epubs (which live in subdirectories by genre); &lt;code&gt;.fonts&lt;/code&gt; is where I&amp;rsquo;ve added my own fonts; and so on.&lt;/p&gt;
+&lt;p&gt;As you can see, I have a bunch of directories (or folders, but we&amp;rsquo;ll use the term directories throughout these docs) that you may or may not have. &lt;code&gt;.adds&lt;/code&gt; is where NickelMenu and Koreader will eventually live; &lt;code&gt;Books&lt;/code&gt; is where I keep all my epubs (which live in subdirectories by genre); &lt;code&gt;.fonts&lt;/code&gt; is where I&amp;rsquo;ve added my own fonts; and so on.&lt;/p&gt;
 &lt;p&gt;But let&amp;rsquo;s ignore all that for now and move on to the second step.&lt;/p&gt;
 &lt;h3&gt;Step 2: Create a folder in &lt;code&gt;.kobo&lt;/code&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-2-create-a-folder-in-kobo&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-2-create-a-folder-in-kobo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
@@ -192,8 +192,8 @@ ExcludeSyncFolders=(\\.(?!kobo|adobe).&amp;#43;|([^.][^/]*/)&amp;#43;\\..&amp;#4
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3&gt;Phase 2: Install NickelMenu&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;phase-2-install-nickelmenu&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#phase-2-install-nickelmenu&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol start=&#34;0&#34;&gt;
+&lt;h3&gt;Phase 2: Install NickelMenu&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;phase-2-install-NickelMenu&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#phase-2-install-NickelMenu&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;Plug in your ereader.&lt;/p&gt;
 &lt;/li&gt;
@@ -201,7 +201,7 @@ ExcludeSyncFolders=(\\.(?!kobo|adobe).&amp;#43;|([^.][^/]*/)&amp;#43;\\..&amp;#4
 &lt;p&gt;Go to the &lt;a href=&#34;https://github.com/pgaskin/NickelMenu/releases&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;release page of the NickelMenu repository&lt;/a&gt; and download the latest release of &lt;code&gt;KoboRoot.tgz&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The file you need is in the &lt;strong&gt;Assets&lt;/strong&gt; section.&lt;/li&gt;
-&lt;li&gt;I strongly recommend that you keep a copy of the most recent release handy. Nickelmenu sometimes disappears as we tinker with our ereader, and the best way to get it back is to follow the Nickelmenu install step.&lt;/li&gt;
+&lt;li&gt;I strongly recommend that you keep a copy of the most recent release handy. NickelMenu sometimes disappears as we tinker with our ereader, and the best way to get it back is to follow the NickelMenu install step.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
